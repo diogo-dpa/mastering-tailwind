@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Masterizando o Tailwind - Curso complementar
 
-## Getting Started
+## 🎲 O curso
 
-First, run the development server:
+O curso "Masterizando o Tailwind" tem o objetivo de aprofundar os conhecimentos da biblioteca de estilos Tailwind. A ideia é implementar somente a casca de um projeto de um dashboard, visualizando a vasta atuação da biblioteca em diferentes tipos de problemas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O curso foi realizado em 12/2023.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 O Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Trata-se da implementação de um dashboard com sidebar, abas e um formulário. Nenhuma funcionalidade em si foi implementada de fato, somente a parte de estrutura e CSS, pois o foco é aprimorar os conceitos da biblioteca. No projeto abordou-se
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Configuração e personalização de temas
+- Utilização de variantes com CSS para alguns componentes
+- Uso de componentes de outras bibliotecas sendo customizados de acordo com o interesse
+- Criação de animações
+- Responsividade
+- Light/Dark mode
 
-## Learn More
+## 💡 Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+No projeto utilizou-se:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **NextJS** -> Framework React para implementação de interfaces
+- **Typescript** -> Linguagem de programação fortemente tipada
+- **FormKit/Auto Animate** -> Biblioteca para criação de animações.
+- **Framer Motion** -> Biblioteca para criação de animações.
+- **Lucide React** -> Biblioteca de ícones.
+- **Radix UI/React Collapsible** -> Biblioteca de componentes prontos, no qual já se preocupa com a acessibilidade. No caso, utilizou-se o Collapsible.
+- **Radix UI/React Scroll Area** -> Biblioteca de componentes prontos, no qual já se preocupa com a acessibilidade. No caso, utilizou-se o Scroll Area.
+- **Radix UI/React Select** -> Biblioteca de componentes prontos, no qual já se preocupa com a acessibilidade. No caso, utilizou-se o Select.
+- **Radix UI/React Tabs** -> Biblioteca de componentes prontos, no qual já se preocupa com a acessibilidade. No caso, utilizou-se as Tabs.
+- **Tailwind Merge** -> Biblioteca auxiliar do Tailwind que ajuda na escrita de classes muito longas.
+- **Tailwind Variants** -> Biblioteca para realizar criação de variantes de um componentes, em conjunto com o Tailwind.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔎 Referências
 
-## Deploy on Vercel
+- [Node Js](https://nextjs.org/docs)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [FormKit/Auto Animate](https://auto-animate.formkit.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React](https://lucide.dev/guide/packages/lucide-react)
+- [Radix UI](https://www.radix-ui.com/primitives)
+- [Tailwind Merge](https://www.npmjs.com/package/tailwind-merge)
+- [Tailwind Variants](https://www.tailwind-variants.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Créditos e Agradecimentos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Gostaria de agradecer a [Rocketseat](https://www.rocketseat.com.br/) pelo conteúdo fantástico disponibilizado, sendo todos os créditos do projeto destinados a eles.
