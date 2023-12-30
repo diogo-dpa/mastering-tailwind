@@ -43,6 +43,7 @@ No projeto utilizou-se:
 - [Radix UI](https://www.radix-ui.com/primitives)
 - [Tailwind Merge](https://www.npmjs.com/package/tailwind-merge)
 - [Tailwind Variants](https://www.tailwind-variants.org/)
+- 
 
 ## 🧠 Créditos e Agradecimentos
 
